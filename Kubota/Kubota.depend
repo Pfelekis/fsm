@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1654628225 source:c:\users\felekis\desktop\kubota_test\kubota\src\idle_state.cpp
+	"Idle_State.h"
+
+1654621587 c:\users\felekis\desktop\kubota_test\kubota\include\idle_state.h
+	"State.h"
+
+1654625858 c:\users\felekis\desktop\kubota_test\kubota\include\state.h
+	<iostream>
+
+1654625596 source:c:\users\felekis\desktop\kubota_test\kubota\src\state.cpp
+	"State.h"
+
+1654628311 source:c:\users\felekis\desktop\kubota_test\kubota\src\state1.cpp
+	"State1.h"
+
+1654627328 c:\users\felekis\desktop\kubota_test\kubota\include\state1.h
+	"State.h"
+
+1654628358 source:c:\users\felekis\desktop\kubota_test\kubota\src\state2.cpp
+	"State2.h"
+
+1654621587 c:\users\felekis\desktop\kubota_test\kubota\include\state2.h
+	"State.h"
+
+1654627328 source:c:\users\felekis\desktop\kubota_test\kubota\src\state3.cpp
+	"State3.h"
+
+1654621587 c:\users\felekis\desktop\kubota_test\kubota\include\state3.h
+	"State.h"
+
+1654628466 source:c:\users\felekis\desktop\kubota_test\kubota\src\state4.cpp
+	"State4.h"
+	<unistd.h>
+
+1654542598 c:\users\felekis\desktop\kubota_test\kubota\include\state4.h
+	"State.h"
+
+1654628223 source:c:\users\felekis\desktop\kubota_test\kubota\main.cpp
+	<iostream>
+	"State1.h"
+	"State2.h"
+	"State3.h"
+	"State4.h"
+	"Idle_state.h"
+
