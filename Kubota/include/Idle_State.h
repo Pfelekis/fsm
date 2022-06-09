@@ -1,3 +1,10 @@
+/************************* FILE DESCRIPTION *********************************************
+*	File: idle.h
+*	Description: Class structure of idle state.
+*
+*	@author Felekis Panagiotis
+*	@version 1.0  Tues 4/9/2022
+*/
 #ifndef IDLE_STATE_H
 #define IDLE_STATE_H
 

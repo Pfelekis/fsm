@@ -1,0 +1,47 @@
+OBJS	= Idle_state.o State.o State1.o State2.o State3.o State4.o main.o
+SOURCE	= Idle_state.cpp State.cpp State1.cpp State2.cpp State3.cpp State4.cpp main.cpp
+HEADER	= Idle_State.h State.h State1.h State2.h State3.h State4.h
+OUT	= ErgoDrive
+CC	 = g++
+FLAGS	 = -g3 -c -Wall
+LFLAGS	 = 
+
+all: $(OBJS)
+	$(CC) -g $(OBJS) -o $(OUT) $(LFLAGS)
+
+Idle_state.o: Idle_state.cpp
+	$(CC) $(FLAGS) Idle_state.cpp -std=gnu17
+
+State.o: State.cpp
+	$(CC) $(FLAGS) State.cpp -std=gnu17
+
+State1.o: State1.cpp
+	$(CC) $(FLAGS) State1.cpp -std=gnu17
+
+State2.o: State2.cpp
+	$(CC) $(FLAGS) State2.cpp -std=gnu17
+
+State3.o: State3.cpp
+	$(CC) $(FLAGS) State3.cpp -std=gnu17
+
+State4.o: State4.cpp
+	$(CC) $(FLAGS) State4.cpp -std=gnu17
+
+main.o: main.cpp
+	$(CC) $(FLAGS) main.cpp -std=gnu17
+
+
+clean:
+	rm -f $(OBJS) $(OUT)
+
+debug: $(OUT)
+	valgrind $(OUT)
+
+valgrind: $(OUT)
+	valgrind $(OUT)
+
+valgrind_leakcheck: $(OUT)
+	valgrind --leak-check=full $(OUT)
+
+valgrind_extreme: $(OUT)
+	valgrind --leak-check=full --show-leak-kinds=all --leak-resolution=high --track-origins=yes --vgdb=yes $(OUT)

@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,7 +34,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Idle_State.h" />
+		<Unit filename="include/State.h" />
+		<Unit filename="include/State1.h" />
+		<Unit filename="include/State2.h" />
+		<Unit filename="include/State3.h" />
+		<Unit filename="include/State4.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Idle_State.cpp" />
+		<Unit filename="src/State.cpp" />
+		<Unit filename="src/State1.cpp" />
+		<Unit filename="src/State2.cpp" />
+		<Unit filename="src/State3.cpp" />
+		<Unit filename="src/State4.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

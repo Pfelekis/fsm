@@ -1,7 +1,7 @@
 /************************* FILE DESCRIPTION *********************************************
-*	State.cpp
+*	File: State.cpp
 *	Description: A simple implementation of State superclass. This file contains the fsm state structure.
-*	
+*
 *	@author Felekis Panagiotis
 *	@version 1.0  Tues 4/9/2022
 */

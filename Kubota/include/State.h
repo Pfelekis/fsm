@@ -1,8 +1,15 @@
-#pragma once
+/************************* FILE DESCRIPTION *********************************************
+*	File: State1.h
+*	Description: Class structure of State1.
+*
+*	@author Felekis Panagiotis
+*	@version 1.0  Tues 4/9/2022
+*/
 #ifndef STATE_H
 #define STATE_H
 #include <iostream>
 
+using namespace std;
 enum position{A, Transport, B, C};
 class State
 {

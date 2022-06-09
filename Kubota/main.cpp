@@ -1,4 +1,11 @@
-
+/************************* FILE DESCRIPTION *********************************************
+*	File: main.cpp
+*	Description: Main function of the fsm. Here we create instances of all states and
+*   move from state to state, in an infinite while loop.
+*
+*	@author Felekis Panagiotis
+*	@version 1.0  Tues 4/9/2022
+*/
 #include <iostream>
 #include "State1.h"
 #include "State2.h"
