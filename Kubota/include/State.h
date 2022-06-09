@@ -1,8 +1,8 @@
+#pragma once
 #ifndef STATE_H
 #define STATE_H
 #include <iostream>
 
-using namespace std;
 enum position{A, Transport, B, C};
 class State
 {

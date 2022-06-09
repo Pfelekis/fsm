@@ -1,3 +1,4 @@
+#pragma once
 #ifndef STATE2_H
 #define STATE2_H
 

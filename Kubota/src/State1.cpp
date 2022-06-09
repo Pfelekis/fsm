@@ -1,3 +1,11 @@
+/************************* FILE DESCRIPTION *********************************************
+*	State1.cpp
+*	Description: A simple implementation of State1 class. This file contains enter, update and leave method implematations
+*   according to requirments.
+*	
+*	@author Felekis Panagiotis
+*	@version 1.0  Tues 4/9/2022
+*/
 #include "State1.h"
 using namespace std;
 State1::State1()
